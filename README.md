@@ -1,0 +1,2 @@
+1. agriculture_model.py - In this we upload the images of crops and get to know the status of our crops. For suppose if it got infected by a disease we can ge tto know what is wrong with our crop.
+2. selector_1.py - In this we plan to select the policy that is best suited to our requirements in comparison with other policies using the concept of RAG. Here we have done for term insurance but similarly we can do it for any insuraance type with little tweaks.
