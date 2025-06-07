@@ -29,6 +29,8 @@ pdf_contents = {}
 
 # Function to chunk text
 def chunk_text(text, chunk_size=512, overlap=50):
+    if not text:
+        return []
     words = text.split()
     chunks = []
     for i in range(0, len(words), chunk_size - overlap):
